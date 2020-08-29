@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/main.cpp
+tools.hpp
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/tools.hpp
+
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/tools.hpp
+

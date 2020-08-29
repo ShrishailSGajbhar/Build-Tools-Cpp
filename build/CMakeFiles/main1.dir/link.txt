@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main1.dir/main.cpp.o  -o main1  libtools.a 

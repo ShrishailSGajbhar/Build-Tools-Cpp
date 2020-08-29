@@ -1,0 +1,4 @@
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/build/CMakeFiles/rebuild_cache.dir
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/build/CMakeFiles/edit_cache.dir
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/build/CMakeFiles/main1.dir
+/home/shrishail/Desktop/Modern C++/2020/week_1/lec_prog1/build/CMakeFiles/tools.dir
