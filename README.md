@@ -12,7 +12,7 @@ If we try to compile the program with:
 clang++ -std=c++17 main.cpp -o main
 
 then it will give the following linking error as Linker can't find the object file for tools.cpp.
-clang++ -std=c++17 main.cpp -o main  
+
 /usr/bin/ld: /tmp/main-1e7866.o: in function `main':
 main.cpp:(.text+0x10): undefined reference to`MakeItSunny()'
 /usr/bin/ld: main.cpp:(.text+0x15): undefined reference to `MakeItRain()'
@@ -47,8 +47,11 @@ Steps:
 * add following lines in the file
   * cmake_minimum_required ( VERSION 3.1) # Mandatory .
     project ( lec_prog1 ) # Mandaory
+    
     add_library ( tools tools.cpp )
+    
     add_executable (main1 main.cpp )
+    
     target_link_libraries (main1 tools)
 * Now, use the following two lines to create an executable namely main1 using CMake and Make tools:
   
