@@ -44,9 +44,9 @@ Steps:
 
 * create a CMakeLists.txt file
   * touch CMakeLists.txt
-* add following lines in the file
-    cmake_minimum_required ( VERSION 3.1) # Mandatory <br />
-    project ( lec_prog1 ) # Mandaory <br />
+* add following lines in the file <br />
+    cmake_minimum_required ( VERSION 3.1) <br />
+    project ( lec_prog1 ) <br />
     add_library ( tools tools.cpp ) <br />
     add_executable (main1 main.cpp ) <br />
     target_link_libraries (main1 tools)
