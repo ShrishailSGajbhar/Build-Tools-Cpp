@@ -35,8 +35,8 @@ So manual target building is hard..Not a scalable and maintainble option for lar
 
 ## Build tools at our rescue
 
-* CMake (It's a meta build system. Actually, a build system generator)
-* Make (Actual, target building tool)
+* **CMake** (It's a meta build system. Actually, a build system generator)
+* **Make** (target building tool)
 
 If you have above two tools installed then you can build a target for the project very easily.
 
