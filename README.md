@@ -51,9 +51,8 @@ Steps:
     add_executable (main1 main.cpp ) <br />
     target_link_libraries (main1 tools)
 * Now, use the following two steps to create an executable namely main1 using CMake and Make tools:
-  
   * Step1: Create a build folder and generate the MakeFile <br />
-           mkdir build && cd build && cmake ..
+      mkdir build && cd build && cmake ..
   * Step2: Build the target main1 using <br />
-           make
+      make
        
