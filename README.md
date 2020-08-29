@@ -45,13 +45,10 @@ Steps:
 * create a CMakeLists.txt file
   * touch CMakeLists.txt
 * add following lines in the file
-  * cmake_minimum_required ( VERSION 3.1) # Mandatory .
-    project ( lec_prog1 ) # Mandaory
-    
-    add_library ( tools tools.cpp )
-    
-    add_executable (main1 main.cpp )
-    
+    cmake_minimum_required ( VERSION 3.1) # Mandatory <br />
+    project ( lec_prog1 ) # Mandaory <br />
+    add_library ( tools tools.cpp ) <br />
+    add_executable (main1 main.cpp ) <br />
     target_link_libraries (main1 tools)
 * Now, use the following two lines to create an executable namely main1 using CMake and Make tools:
   
