@@ -1,6 +1,6 @@
 # Demo program for library creation and linking in a C++ Project.
 
-This repo is created as part of my understanding of the [lecture](https://youtu.be/2TJpJFU_Fx4) where necessity of build tools for large cpp projects is mentioned. If we do the manually the build, it is very time consuming and confusing also.
+This repo is created as part of my understanding of the [lecture](https://youtu.be/2TJpJFU_Fx4) where necessity of build tools for large cpp projects is mentioned. If we do the target building *manually*, then it is very time consuming and confusing also.
 
 The repo has 3 files:
 
@@ -35,8 +35,8 @@ So manual target building is hard..Not a scalable and maintainble option for lar
 
 ## Build tools at our rescue
 
-* CMake (Meta build system. Actually a build system generator)
-* Make (target building tool)
+* CMake (It's a meta build system. Actually, a build system generator)
+* Make (Actual, target building tool)
 
 If you have above two tools installed then you can build a target for the project very easily.
 
