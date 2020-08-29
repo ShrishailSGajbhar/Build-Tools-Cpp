@@ -1,4 +1,4 @@
-# Demo program for library creation and linking in a C++ Program
+# Demo program for library creation and linking in a C++ Project.
 
 This repo is created as part of my understanding of the [lecture](https://youtu.be/2TJpJFU_Fx4) where necessity of build tools for large cpp projects is mentioned. If we do the manually the build, it is very time consuming and confusing also.
 
